@@ -55,7 +55,7 @@ body {
   margin: 0 auto;
   background-color:#F2F2F2;
   width: 414px;
-  heigt:auto;  
+  height:auto;  
 }
 
 header {
@@ -65,35 +65,57 @@ list-style-type:none
 menu{
 position: absolute;
 }
-aside{
+img{
+    size: auto;
+}
+img:hover{
+    color: #eb5428;
+}
+svg{
+    color:#eb5428;
+}
+svg:hover {
+    color:#eb5428;
+}
+aside {
 
 }
 div .details{
-  background-colr:#0D0D0D;
+  background-color:#0D0D0D;
   color:#7ABFBF;
 
 
 }
-.ingredients{
+/*.ingredients{
 
 }
 .dishes{
 
+}*/
+.rate {
+    background-color: #7ABFBF;
+    color: #0D0D0D;
+columns: auto;
 }
-.rate{
-
-}
-nav{
-
+nav {
+background-color: #F2F2F2;
 }
 nav ul{
-list-style-type:none
+list-style-type:none;
+display:flex;
+justify-content: center;
+
 }
 #social li{
-list-style-type:none
+list-style-type:none;
 }
-footer{
-
+footer:img{
+float: left;
+position: absolute;
+}
+footer {
+background-color: #F2F2F2;
+color: #0D0D0D;
 }
 /*-----------------TEXT-------------------------------------------------------------------*/
 
@@ -118,13 +140,16 @@ nav a,menu li,nav span{
 font-size:20px;
 font-family:bebas neue-regular;
 }
+nav h2 {
+    visibility: hidden;
+}
  #social li, footer{
 font-size:20px;
 font-family:bebas neue-regular;
 }
 dt{
 font-size:16px;
-font-family:montserrat-bold;
+font-family: montserrat'bold';
 }
 
 
@@ -142,7 +167,7 @@ position: absolute;
 /*-----------------LARGE------------------------------------------------------------------*/
 @media screen and (min-width: 1200px){ 
 menu {
-position: fix;
+position: fixed;
 }
 }
 
