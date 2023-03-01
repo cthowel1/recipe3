@@ -73,13 +73,14 @@ img:hover{
 }
 svg{
     color:#eb5428;
+    size: small;
 }
 svg:hover {
     color:#eb5428;
 }
-aside {
+/*aside {
 
-}
+}*/
 div .details{
   background-color:#0D0D0D;
   color:#7ABFBF;
@@ -159,6 +160,9 @@ font-family: montserrat'bold';
 menu {
 position: absolute;
 }
+body{
+    width:768px;
+}
 }
 
 
@@ -168,6 +172,9 @@ position: absolute;
 @media screen and (min-width: 1200px){ 
 menu {
 position: fixed;
+}
+body{
+    width:1200px;
 }
 }
 
