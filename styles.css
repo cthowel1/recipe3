@@ -163,6 +163,9 @@ position: absolute;
 body{
     width:768px;
 }
+img {
+    size:auto;
+}
 }
 
 
